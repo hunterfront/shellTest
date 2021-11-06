@@ -1,0 +1,19 @@
+{
+  "name": "@whtx/shelltest",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "github-pages-commit": "bin/commit.js",
+    "github-pages-push": "bin/push.js",
+    "github-pages-deploy": "bin/deploy.js"
+  },
+  "dependencies": {
+    "shelljs": "^0.8.4"
+  }
+}
